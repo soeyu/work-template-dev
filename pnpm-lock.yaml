@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@soeyu/dev-template-parser': ^0.0.5
   '@types/jquery': ^3.5.14
   axios: ^0.27.2
   sass: ^1.54.4
@@ -8,6 +9,7 @@ specifiers:
   vite: ^3.0.8
 
 devDependencies:
+  '@soeyu/dev-template-parser': 0.0.5
   '@types/jquery': 3.5.14
   axios: 0.27.2
   sass: 1.54.4
@@ -24,6 +26,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@soeyu/dev-template-parser/0.0.5:
+    resolution: {integrity: sha512-Y4kFqH/e3q9y3PXFaKId7EohhnYpN3dyjS/DQT99bKM5k5SD+eKM0qkNxi3WY2l2g0M1EARCxt0KolAWt5Slzg==}
+    dependencies:
+      axios: 0.27.2
+    transitivePeerDependencies:
+      - debug
+    dev: true
 
   /@types/jquery/3.5.14:
     resolution: {integrity: sha512-X1gtMRMbziVQkErhTQmSe2jFwwENA/Zr+PprCkF63vFq+Yt5PZ4AlKqgmeNlwgn7dhsXEK888eIW2520EpC+xg==}
